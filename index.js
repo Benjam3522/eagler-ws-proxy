@@ -2,7 +2,7 @@ import http from "http";
 import { WebSocketServer } from "ws";
 import WebSocket from "ws";
 
-const TARGET = "wss://cef6f81c-4bab-439a-92f5-f0687bdf4581-00-2aeib0prr98uc.kirk.replit.dev";
+const TARGET = "cef6f81c-4bab-439a-92f5-f0687bdf4581-00-2aeib0prr98uc.kirk.replit.dev";
 
 const server = http.createServer();
 const wss = new WebSocketServer({ server });
