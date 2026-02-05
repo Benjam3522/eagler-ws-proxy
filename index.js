@@ -2,7 +2,7 @@ import http from "http";
 import { WebSocketServer } from "ws";
 import WebSocket from "ws";
 
-const TARGET = "ws://91.98.147.128:25570";
+const TARGET = "ws://91.98.80.233:25570";
 
 const server = http.createServer();
 const wss = new WebSocketServer({ server });
